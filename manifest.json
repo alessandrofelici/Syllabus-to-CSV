@@ -1,0 +1,10 @@
+{
+    "name": "Syllabus to CSV",
+    "description": "Chrome extension that takes a class syllabus and converts it into a CSV with all your class assignments",
+    "version": "1.0",
+    "manifest_version": 3,
+    "host_permissions": ["https://api.mistral.ai/v1/files"],
+    "action": {
+        "default_popup": "index.html"
+    }
+}
